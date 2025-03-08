@@ -7,5 +7,5 @@
 
 <QueryClientProvider client={queryClient}>
   <slot />
-  <SvelteQueryDevtools />
+  <SvelteQueryDevtools initialIsOpen />
 </QueryClientProvider>
